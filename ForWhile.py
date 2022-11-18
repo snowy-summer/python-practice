@@ -37,3 +37,21 @@ person = "nu"
 while person != "다람쥐": #같지 않으면 while문 실행   같으면 탈출
  print("{0} 커피 나왔습니다.".format(customer))
  person=input("손님 이름이 어떻게 되시나요? ")
+
+
+
+#한줄 for
+student = [1,2,3,4,5] #번호를 101,102,103,104,105로 변경하려함
+print(student)
+student =[i+100 for i in student] #student에 있는 i값을 100을 더해준다. 모든 i더해 줄때 까지 반복
+print(student)
+
+#이름 길이 
+student = ["lion","tiger","moooola"]
+student = [len(i) for i in student] #student에 있는 i값의 길이를 측정해준다.
+print(student)
+
+#이름 대문자 변경
+student = ["lion","tiger","moooola"]
+student = [i.upper() for i in student] 
+print(student)
