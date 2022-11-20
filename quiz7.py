@@ -22,7 +22,7 @@ def std_weight (height,gender): #키 m단위 실수 , 성별 :남,여
 
 height = 175 #cm단위
 gender = "남자"
-weight = round(std_weight(height / 100, gender),2)
+weight = round(std_weight(height / 100, gender),2) # 소수점 둘째 자리까지 출력
 
 
 print("키 {0} {1}의 표준 체중은 {2}kg입니다.".format(height,gender,weight))
