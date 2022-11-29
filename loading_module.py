@@ -20,5 +20,5 @@ from module import price,price_morning   #price,price_morning 만 불러오기
 price(3)
 price_morning(3)
 
-from module import price_solider as price  #
+from module import price_solider as price  # module에서 price_solider불러와 price라 할꺼야
 price(5)
